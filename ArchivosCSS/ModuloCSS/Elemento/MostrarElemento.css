@@ -1,0 +1,124 @@
+#consultaSelect {
+    margin-bottom: 20px;
+}
+
+#ListaTipoElemento {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#ListaTipoElemento td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid transparent; /* Hacemos que el borde sea transparente */
+    border-radius: 2px; /* Redondeamos las esquinas */
+    outline: 1px solid #292929; /* Creamos una línea exterior con el mismo color */
+}
+#ListaTipoElemento th{
+    padding: 8px;
+    text-align: left;
+}
+#ListaTipoElemento th {
+    background-color: #0228a3;
+    color: #fff;
+}
+
+
+.EliminarTipoElemento{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #a30404;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5S;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.EditarTipoElemento{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #05be1e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5S;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.EliminarTipoElemento:hover {
+    background-color: #000000;
+    color: #cc0505;
+}
+.EditarTipoElemento:hover{
+    background-color: #000000;
+    color: #08d823;
+}
+
+#NoResultados {
+    margin-top: 20px;
+}
+
+
+
+#consultaSelect {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+#valorConsultaContainer,
+#campoContainer {
+    display: flex;
+    align-items: center;
+}
+
+#campoContainer select {
+    margin-top: 0;
+}
+
+#consultaSelect button {
+    margin-left: 5px;
+}
+#valorConsulta{
+    width: 100%;
+}
+
+
+#Buscar{
+background-color: #05be1e;
+color: #ffffff;
+padding: 0.8% 5%;
+border: none;
+border-radius: 3px;
+transition: 0.5S;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 17px;
+}
+
+#Limpiar{
+background-color: #a30404;
+color: #ffffff;
+padding: 0.8% 5%;
+border: none;
+border-radius: 3px;
+text-decoration: none;
+transition: 0.5S;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 17px;
+}
+
+#Buscar:hover{
+    background-color: #ffffff;
+    color: #05be1e;
+}
+#Limpiar:hover{
+    background-color: #ffffff;
+    color: #a30404;
+}

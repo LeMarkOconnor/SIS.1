@@ -1,0 +1,29 @@
+.correcto {
+    color: green;
+}
+.incorrecto {
+    color: red;
+}
+
+.desbloqueado {
+    background-color: #4caf50;
+}
+
+.bloqueado {
+    background-color: #ccc;
+}
+.inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-wrapper {
+    flex: 1 1 auto;
+    margin-right: 20px;
+}
+
+.raya
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}

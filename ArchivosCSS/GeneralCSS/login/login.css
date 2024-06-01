@@ -1,0 +1,326 @@
+.home {
+    background-image: url(../../Imagenes/FondoLogin.png);
+    width: 100vh;
+    height: 100vh;
+    background-size: cover; /* Escala la imagen para cubrir completamente el elemento */
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+.contlogo {
+    display: flex;
+    border-radius: 50%;
+    left: 75%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    width: 20%;
+    height: 42%;
+    align-items: center;
+    border: solid #ffffff;
+    position: absolute; /* Asegura que la posición no sea static */
+    z-index: 1; /* Ajusta el z-index según tus necesidades */
+}
+
+.logo {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    height: 36%;
+    width: 18%;
+    z-index: 2;
+}
+
+
+
+#logo {
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 16%;
+    top: 20%;
+}
+
+#textol{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 150%;
+    width: 2500px;
+    height: 100px;
+    color: white;
+    text-align: -webkit-match-parent; 
+    font-family: 'League Spartan', sans-serif;   
+}
+
+.siglas{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    margin-top: auto;
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+
+.login-container {
+    margin-top: 10%;
+    position: relative;
+    width: 70hv;
+    height: 50hv;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    margin-left: 25%;
+
+}
+
+.login-container label{
+    display: inline-block;
+    width: 200px;
+    
+}
+
+.login-container input {
+    display: flex;
+    width: 300px; 
+    margin-left: 0%;
+    text-align: center;
+}
+
+.password-container {
+    position: relative;
+}
+
+#showPasswordBtn {
+    position: absolute;
+    top: 52.3%;
+    right: 5px; /* Ajusta la posición según tus necesidades */
+    margin-left: -5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#ingresar{
+    width: 250px;
+    margin-top: 10%;
+    background-color:#14297B;
+    border: none;
+    margin-left: -10%;
+}
+
+#contra{
+    margin-left: -10%;
+    background-color:#14297B ;
+    border: none;
+}
+
+
+
+/*Modal 1 */
+
+.modal-1{
+    align-items: center;
+    height: 60vh !important;
+    width: 90vh !important;
+}
+
+
+.modal-body{
+    background-color: #14297B;
+    display: flex;
+    flex-direction:column;
+    height: 60vh !important;
+    width: 90vh !important;
+} 
+
+.recovery1{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif ;
+}
+ 
+.recovery1-1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal-content {
+    border: none;
+    background: none;
+}
+
+
+.modal-content label{
+    text-align: center !important;
+}
+
+.modal-header {
+    border-bottom: none;
+    background-color: #1BBDCD;
+    font-family: 'Leaggue Spartan', sans-serif;
+    color: #152056;
+    font-weight: bold;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    border-top: none;
+    background-color: #2898cc;
+}
+
+.modal-footer {
+    border-top: none;
+    background-color: #2898cc;
+}
+
+
+
+
+/* Modal 2*/
+#modal-content-2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+#modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: none;
+    border-top: none;
+    background-color: #2898cc;
+    border-radius: 10px;
+    width: 90vw; /* Cambiado a viewport width para que sea responsive */
+    height: 100vh;
+}
+
+.recovery2 {
+    position: absolute;
+    left: 24%;
+    top: 10%;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif ;
+}
+
+.form {
+    width: 100vh;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form h2{
+    text-align: center;
+    font-family: 'League Spartan ', sans-serif ;
+}
+
+.fomr h6{
+    text-align: center;
+    font-family: 'League Spartan ', sans-serif ;
+}
+
+.form input{
+    border-radius: 10px;
+    border-color: white;
+}
+
+.form button{
+    font-family: 'League Spartan ', sans-serif ;
+
+}
+
+.formulario {
+    /* Eliminado position absolute */
+    width: 100%; /* Ajustar al 100% del ancho del contenedor padre */
+    height: 100%; /* Ajustar al 100% del alto del contenedor padre */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#modal-footer {
+    border-top: none;
+    background-color: #2898cc;
+}
+
+
+
+
+
+/* termina el segundo modal */
+
+.index{
+    background-color: #14297B;
+    position: relative;
+    color: white;
+}
+
+#botoncontra{
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* Estilos normales del botón */
+.rounded-button {
+    background-color: #a3c9f8;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Anulación de estilos de Bootstrap en estado hover */
+  .rounded-button:hover,
+  .rounded-button.btn-primary:hover {
+    background-color: #6faefc;
+    color: #ffffff; /* Ajusta el color del texto según sea necesario */
+    border-color: #a3c9f8; /* Ajusta el color del borde según sea necesario */
+    transform: scale(1.1);
+  }
+
+
+  .modal {
+    z-index: 100000; /* Un valor alto para asegurarse de que esté por encima de otros elementos */
+ }
+
+
+.rounded-input {
+    border-radius: 10px;
+    border-color: white;
+}
+
+.rounded-button {
+    border-radius: 10px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #007bff; /* Puedes ajustar el color del enlace según tus preferencias */
+}

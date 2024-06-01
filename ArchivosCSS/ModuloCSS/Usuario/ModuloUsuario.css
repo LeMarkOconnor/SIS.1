@@ -1,0 +1,46 @@
+label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  select {
+    width: calc(110% - 100px); /* Reducir el ancho del padding para compensar */
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+/*Fotografia Input*/
+  .upload-area {
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el área */
+  }
+
+  .upload-icon {
+    margin-right: 10px;
+  }
+
+  .upload-text {
+    margin-right: 10px;
+  }
+
+  .upload-input {
+    display: none; /* Ocultar el input de tipo file */
+  }

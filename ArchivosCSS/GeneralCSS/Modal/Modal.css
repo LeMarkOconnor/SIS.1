@@ -1,0 +1,15 @@
+
+.modal-header
+{
+    background-color:rgb(38, 176, 201)!important;
+}
+
+.modal-title
+{   
+    font-size: 70px;
+    color: rgb(1, 1, 94)!important;
+}
+.modal-content
+{
+    background-color: rgb(0, 174, 255)!important;
+}

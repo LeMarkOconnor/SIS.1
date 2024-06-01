@@ -1,0 +1,82 @@
+label {
+font-weight: bold;
+}
+
+input[type="text"],
+select {
+width: calc(110% - 100px); 
+padding: 8px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type="submit"] {
+background-color: #007bff;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+
+
+/*Fotografia Input*/
+.upload-area {
+background-color: #ffffff;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.upload-icon {
+margin-right: 10px;
+}
+
+.upload-text {
+margin-right: 10px;
+}
+
+.upload-input {
+display: none; /* Ocultar el input de tipo file */
+}
+
+
+/*Check box*/
+.checkbox-label {
+font-size: 15px; /* Tamaño de la fuente */
+}
+
+.checkbox-input {
+width: 16px; 
+height: 16px;
+margin-right: 4px; 
+}
+.containerEditar{
+padding: 5%;
+background-color: rgb(0, 174, 255)!important;
+color: #000000;
+}
+
+#EditarBoton{
+background-color: #0460c4; 
+color: #fff;
+padding: 8px 5px; 
+border: none; 
+border-radius: 4px; 
+cursor: pointer; 
+transition: 0.3s; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#EditarBoton:hover {
+background-color: #ffffff;
+color: #0460c4; 
+}
